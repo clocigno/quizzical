@@ -1,0 +1,168 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  background: #F5F7FB;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+#__next {
+  height: 100%;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.blob-container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  width: 20%
+}
+
+.blob-container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 100%;
+  width: 20%
+}
+
+.yellow-blob {
+  height: 20%;
+  width: 100%;
+}
+
+.blue-blob {
+  height: 20%;
+  width: 100%;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+}
+
+.questions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  width: 60%;
+  padding: 40px 0px;
+}
+
+.title {
+  font-size: 31.25px;
+  text-align: center;
+}
+
+.start-button {
+  width: 193px;
+  height: 52px;
+  background: #4D5B9E;
+  border-radius: 15px;
+  border: none;
+  color: #F5F7FB;
+}
+
+.question-text {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #4D5B9E;
+}
+
+.answer-button {
+  box-sizing: border-box;
+  border: 0.794239px solid #4D5B9E;
+  border-radius: 7.94239px;
+  font-family: 'Karla';
+  font-weight: 500;
+  font-size: 1.3em;
+  text-align: center;
+  color: #4D5B9E;
+  display: inline-block;
+  margin-right: 13px;
+  margin-bottom: 15px;
+}
+
+.check-answers-button {
+  background: #4D5B9E;
+  border-radius: 10px;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: #F5F7FB;
+  font-size: 1.2em;
+  width: 25%;
+  height: 100%;
+  margin-top: 20px;
+  border: none;
+}
+
+.bottom-container {
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.selected{
+  background: #D6DBF5;
+  transform:translateY(2px);
+  box-shadow: 0 0 0;
+  outline: 0;
+}
+
+.correct {
+  background: #94D7A2;
+  font-weight: 800;
+}
+
+.incorrect {
+  background: #F8BCBC;
+}
+
+.bottom-text {
+  font-weight: 700;
+  text-align: center;
+  color: #293264;
+  font-size: 2em;
+}
+
